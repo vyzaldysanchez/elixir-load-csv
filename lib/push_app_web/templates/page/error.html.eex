@@ -1,0 +1,8 @@
+<div clas="text-center">
+    <p class="text-danger text-center">
+        Something went wrong with your file! Check it and try again later
+    </p>
+    <a class="btn btn-danger center-block" href="/">
+        Go back!
+    </a>
+</div>

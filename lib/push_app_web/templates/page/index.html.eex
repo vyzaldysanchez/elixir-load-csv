@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <form action="/payment" enctype="multipart/form-data" method="post">
+    <input type="hidden" name="_csrf_token" value="<%= csrf_token(@conn) %>">
+
+    <div class="form-group text-center">
+      <input type="file" name="payment[file]" class="text-center" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
